@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Element found]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73804" started-at="2018-06-03T04:29:13Z" finished-at="2018-06-03T04:30:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73804" started-at="2018-06-03T04:29:13Z" finished-at="2018-06-03T04:30:27Z">
+      <class name="testScript.test3">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.test3@3f4d3d]" name="launchBrowser" is-config="true" duration-ms="31058" started-at="2018-06-03T04:29:13Z" finished-at="2018-06-03T04:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testTwitter()[pri:0, instance:testScript.test3@3f4d3d]" name="testTwitter" duration-ms="40675" started-at="2018-06-03T04:29:44Z" finished-at="2018-06-03T04:30:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element found]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwitter -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.test3@3f4d3d]" name="closeBrowser" is-config="true" duration-ms="2001" started-at="2018-06-03T04:30:25Z" finished-at="2018-06-03T04:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwitter status=SUCCESS method=test3.testTwitter()[pri:0, instance:testScript.test3@3f4d3d] output=Element found]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.test3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
